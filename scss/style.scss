@@ -1,0 +1,21 @@
+// Globals
+@import '../scss/utilities/variables';
+@import '../scss/base/reset';
+@import '../scss/utilities/utclasses';
+
+
+// Layouts
+@import '../scss/layout/navigation';
+@import '../scss/layout/footer';
+ 
+// Views
+@import '../scss/views/home';
+@import '../scss/views/contact';
+
+// Components
+@import '../scss/components/logo';
+
+// General styles
+.top-buffer {
+    margin-top: $margin-spacer;
+}

@@ -1,0 +1,21 @@
+// Navigation & Footer links & hover effect
+
+@mixin nav-link($color, $hover-color, $hover-background) {
+    text-decoration: none;
+    margin-inline: 1rem;
+    color: $color;
+    transition: all .2s ease-out;
+    &:hover {
+        background-color: $hover-background;
+        color: $hover-color;
+        transition: all .2s ease-out;
+        @media (min-width: 992px) {
+            transform: scale(1.1);
+        }
+        
+        @media (max-width: 991px) {
+            transform: scale(1.03);
+        }
+    }
+
+}

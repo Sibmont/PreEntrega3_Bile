@@ -1,0 +1,30 @@
+// RESET
+html, body {
+    max-height: 100%;
+}
+
+// Remove Margin
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: $fs-body;
+    font-family: $ff-body;
+    color: $clr-neutral-900;
+    background-color: $clr-accent-400;
+}
+
+.main {
+    margin-top: $margin-main;
+    line-height: 1.5;
+}
+
+// Work better with images
+img {
+    max-width: 100%;
+}
+

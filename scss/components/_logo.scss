@@ -1,0 +1,19 @@
+// Logo style
+.logo {
+    font-size: $fs-logo;
+    color: $clr-neutral-900;
+    transition: all .2s ease-out;
+
+    &:hover {   
+        transform: scale(1.1);
+        transition: all .2s ease-out;
+    }
+}
+
+.logo-footer {
+    @extend .logo;
+    color: $clr-neutral-100;
+}
+
+// logo animations
+

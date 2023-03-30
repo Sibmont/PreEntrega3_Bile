@@ -1,0 +1,38 @@
+// Colors Map
+$colors: (
+    primary: (
+        400: #14213d
+    ),
+    neutral: (
+        100: #ffffff,
+        900: #000000
+    ),
+    accent: (
+        100: #212529,
+        400: #fca311
+    )
+);
+
+// Variables
+$clr-primary-400: #14213d;
+
+$clr-neutral-100: #ffffff;
+$clr-neutral-900: #000000;
+
+$clr-accent-100: #212529;
+$clr-accent-400: #fca311;
+
+// Font-family
+$ff-primary: "Quicksand", sans-serif;
+$ff-body: $ff-primary;
+
+// Font-size
+$fs-primary: 1.25rem;
+$fs-logo: 3rem;
+$fs-body: $fs-primary;
+
+// Margins
+$margin-main: 10rem;
+$margin-footer: 5rem;
+$margin-home-quality: 5rem;
+$margin-spacer: 5rem;

@@ -1,0 +1,12 @@
+@import '../utilities/mixins';
+
+// Link hover effect
+.footer-link {
+                        //color        hover-color                  hover-background
+    @include nav-link($clr-neutral-100, $clr-accent-100!important, $clr-neutral-100);
+}
+
+// Footer margin top
+.footer-div {
+    margin-top: $margin-footer;
+}

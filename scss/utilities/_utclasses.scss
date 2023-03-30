@@ -1,0 +1,22 @@
+// Text and Background Colors Utility Classes
+@import './variables';
+
+@each $color, $shades in $colors {
+    @each $shade, $value in $shades {
+        .text-#{$color}-#{$shade} {
+            color: $value;
+        }
+        .bg-#{$color}-#{$shade} {
+            background-color: $value;
+        }
+    }
+}
+
+// Responsive Text
+.res-text {
+    font-size: clamp(1.1rem, 1.5vw, 1.4rem) !important;
+  }
+  
+.res-title {
+    font-size: clamp(4rem, 8vw, 10rem) !important;
+  }

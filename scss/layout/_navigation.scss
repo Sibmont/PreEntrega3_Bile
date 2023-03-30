@@ -1,0 +1,7 @@
+@import '../utilities/mixins';
+
+// Nav link and hover effect
+.nav-link {
+                        //color        hover-color    hover-background
+    @include nav-link($clr-neutral-900, $clr-neutral-100, $clr-accent-100);
+}

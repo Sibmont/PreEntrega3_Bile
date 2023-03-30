@@ -1,0 +1,116 @@
+html, body {
+  max-height: 100%; }
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+  box-sizing: border-box; }
+
+body {
+  font-size: 1.25rem;
+  font-family: "Quicksand", sans-serif;
+  color: #000000;
+  background-color: #fca311; }
+
+.main {
+  margin-top: 10rem;
+  line-height: 1.5; }
+
+img {
+  max-width: 100%; }
+
+.text-primary-400 {
+  color: #14213d; }
+
+.bg-primary-400 {
+  background-color: #14213d; }
+
+.text-neutral-100 {
+  color: #ffffff; }
+
+.bg-neutral-100 {
+  background-color: #ffffff; }
+
+.text-neutral-900 {
+  color: #000000; }
+
+.bg-neutral-900 {
+  background-color: #000000; }
+
+.text-accent-100 {
+  color: #212529; }
+
+.bg-accent-100 {
+  background-color: #212529; }
+
+.text-accent-400 {
+  color: #fca311; }
+
+.bg-accent-400 {
+  background-color: #fca311; }
+
+.res-text {
+  font-size: clamp(1.1rem, 1.5vw, 1.4rem) !important; }
+
+.res-title {
+  font-size: clamp(4rem, 8vw, 10rem) !important; }
+
+.nav-link {
+  text-decoration: none;
+  margin-inline: 1rem;
+  color: #000000;
+  transition: all .2s ease-out; }
+  .nav-link:hover {
+    background-color: #212529;
+    color: #ffffff;
+    transition: all .2s ease-out; }
+    @media (min-width: 992px) {
+      .nav-link:hover {
+        transform: scale(1.1); } }
+    @media (max-width: 991px) {
+      .nav-link:hover {
+        transform: scale(1.03); } }
+
+.footer-link {
+  text-decoration: none;
+  margin-inline: 1rem;
+  color: #ffffff;
+  transition: all .2s ease-out; }
+  .footer-link:hover {
+    background-color: #ffffff;
+    color: #212529 !important;
+    transition: all .2s ease-out; }
+    @media (min-width: 992px) {
+      .footer-link:hover {
+        transform: scale(1.1); } }
+    @media (max-width: 991px) {
+      .footer-link:hover {
+        transform: scale(1.03); } }
+
+.footer-div {
+  margin-top: 5rem; }
+
+.quality-buffer {
+  margin-top: 5rem; }
+
+textarea {
+  resize: none; }
+
+.btn:hover {
+  transform: scale(1.01);
+  transition: all .2s ease-out; }
+
+.logo, .logo-footer {
+  font-size: 3rem;
+  color: #000000;
+  transition: all .2s ease-out; }
+  .logo:hover, .logo-footer:hover {
+    transform: scale(1.1);
+    transition: all .2s ease-out; }
+
+.logo-footer {
+  color: #ffffff; }
+
+.top-buffer {
+  margin-top: 5rem; }
